@@ -897,6 +897,32 @@ justify-content: center;
   box-shadow: 2px 2px 2.5px black;
 }
 
+
+.contact-us-container-sucsses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0 20px 0;
+  width: 40%;
+  /* height: 70%; */
+  /* max-width: 450px;
+  height: 300px; */
+  margin: 0 auto 20px auto;
+    margin: 0 auto 20px auto;
+  border-radius: 10%;
+  background-color: #0067A0ff;
+  border: 5px solid white;
+  border: 5px solid #003959;
+  align-items: center;
+  color: white;
+  text-align: center;
+  box-shadow: 2px 2px 2.5px black;
+
+}
+
+
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -912,27 +938,62 @@ justify-content: center;
   background-color: #0067A0ff;
   /* border: 5px solid white; */
   justify-content: space-between;
+
 }
 
+.contact-form-sucsses { display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 5px auto 0px auto;
+/* width: 500px; */
+/* width: 60%; */
+/* max-width: 700px; */
+/* height: 300px; */
+width: 40%;
+/* height: 70%; */
+color: white;
+background-color: transparent;
+border-radius: 10%;
+background-color: #0067A0ff;
+/* border: 5px solid white; */
+justify-content: space-between;
+
+}
+
+
+
 .contact-title {
-  /* font-family: 'Amatic SC', cursive; */
+  font-family: 'Amatic SC', cursive;
   font-weight: 900;
   font-size: 3.4rem;
   letter-spacing: 5px;
   color: #0067A0ff;
   text-shadow: 1px 1px 2px black;
   text-align: center;
-  /* padding-top: 420px; */
-  /* margin-top: -700px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.contact-title-sucsses {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
 }
 
-/* .contact-title h1 {
-  margin: 0;
-} */
+
 form input, form textarea {
   font-family: 'Amatic SC', cursive;
   border: 0px;
