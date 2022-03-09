@@ -1,0 +1,1496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Annie Use Your Telescope', cursive;
+}
+
+body {
+  /* padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+  background: #0067A0ff;
+  background: #F7FD04;
+  background: rgb(255, 201, 0);
+  background: linear-gradient(90deg, rgba(255, 201, 0, 1) 0%, rgba(247, 253, 4, 1) 100%);
+}
+
+/* ***SWIPER AND CARDS**** */
+.swiper {
+  width: 90%;
+  height: 100%;
+}
+
+/* .swiper-slide {
+  display: block;
+  width: 350px;
+  object-fit: contain;
+
+ } */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  position: absolute;
+  display: inline;
+  margin-bottom: -40px;
+  padding: 25px;
+}
+
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.swiper-pagination-bullet-active {
+  margin-top: 10px !important;
+  background-color: #0067A0ff !important;
+  font-size: 1.5rem !important;
+}
+
+.swiper-button-prev::after {
+  /* WARNING: morao sam da dodam ::after pseudo klasu da bi znak bio obojen a ne kvadratic div-a */
+  color: #0067A0ff;
+}
+
+.swiper-button-next::after {
+  /* WARNING: morao sam da dodam ::after pseudo klasu da bi znak bio obojen a ne kvadratic div-a */
+  color: #0067A0ff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  flex: 1 0 300px;
+  padding: 1rem 1rem 3rem 1rem;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #e2e2e2;
+  color: white;
+  border-radius: 12%;
+  overflow: hidden;
+  /* WARNING: da nisam ovo ukljucio nebi se videla donja margina zaobljena  */
+  box-shadow: 2px 2px 3px black;
+}
+
+.card-one-border-style {
+  border: 3px solid #EB1621ff !important;
+}
+
+.card-two-border-style {
+  border: 3px solid #32CD32 !important;
+}
+
+.card-three-border-style {
+  border: 3px solid #0067A0ff !important;
+}
+
+.card-four-border-style {
+  border: 3px solid #DB4F1Bff !important;
+}
+
+.card-five-border-style {
+  border: 3px solid #EF008Eff !important;
+}
+
+.card-image {
+  flex: 0 0 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-one-content-style {
+  background-color: #EB1621ff;
+}
+
+.card-two-content-style {
+  background-color: #32CD32;
+}
+
+.card-three-content-style {
+  background-color: #0067A0ff;
+}
+
+.card-four-content-style {
+  background-color: #DB4F1Bff;
+}
+
+.card-five-content-style {
+  background-color: #EF008Eff;
+}
+
+.card .card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  text-shadow: 2px 2px 3px black;
+}
+
+.card .card-snippet {
+  /* display: flex;
+   align-self: stretch; */
+  position: relative;
+  font-size: 1.3rem;
+  margin-bottom: 1.1rem;
+  text-shadow: 2px 2px 3px black;
+}
+
+.card-readmore a {
+  font-family: 'Amatic SC', cursive;
+  display: block;
+  margin-top: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f7ede2;
+  text-shadow: 2px 2px 3px black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.red-card-readmore-hover a:hover {
+  color: #A40F17;
+  text-shadow: none;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.1rem;
+}
+
+.green-card-readmore-hover a:hover {
+  color: #097829;
+  text-shadow: none;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.1rem;
+}
+
+.blue-card-readmore-hover a:hover {
+  color: #003959;
+  text-shadow: none;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.1rem;
+}
+
+.orange-card-readmore-hover a:hover {
+  color: #8C3210;
+  text-shadow: none;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.1rem;
+}
+
+.pink-card-readmore-hover a:hover {
+  color: #8F0055;
+  text-shadow: none;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.1rem;
+}
+
+/* ***************SWIPER AND CARDS END*************************** */
+
+
+
+/************************ SWIPER DRUGI POCETAK******************** */
+
+
+.mySwiper2 {
+  height: 100%;
+  width: 90%;
+}
+
+
+.mySwiper .swiper-slide {
+  width: 90%;
+  /* width: 55%; */
+  height: 10px;
+  /* border-radius: 5%; */
+  opacity: 1;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border: 4px solid #DB4F1Bff;
+  border-radius: 10%;
+  box-shadow: 1px 1px 2px #8C3210;
+}
+
+.swiper {
+
+  width: 90%;
+  height: 440px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 10px;
+
+
+}
+
+.about-us-page-flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-shega {
+  /* position: absolute; */
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 80%;
+  /* margin-bottom: 50px; */
+  text-align: center;
+  background-color: #DB4F1Bff;
+  border: 3px solid #8C3210 !important;
+  border-radius: 5%;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+margin:auto;
+}
+
+.about-shega h1 {
+  padding: 20px 0 20px 0;
+  font-size: 1.6rem;
+  font-family: 'Amatic SC', cursive;
+  margin: auto;
+}
+
+.container-flex {
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 10px 0 10px 0;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-title {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  font-size: 3.7rem;
+  letter-spacing: 5px;
+  color: #0067A0ff;
+  /* color: #f7ede2; */
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 5%; */
+  /* height: 30%; */
+}
+
+.about-btn-next::after {
+  color: #DB4F1Bff;
+  font-weight: bold;
+}
+
+.about-btn-prev::after {
+  color: #DB4F1Bff;
+  font-weight: bold;
+}
+
+
+.card-image-about-us {
+  /* flex: 0 0 530px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* margin: 30px; */
+}
+
+/************************ SWIPER DRUGI KRAJ******************** */
+.slider-title {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  font-size: 3.7rem;
+  letter-spacing: 5px;
+  color: #0067A0ff;
+  /* color: #f7ede2; */
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  /* padding-bottom: 30px; */
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+header {
+  /* background: #F7FD04; */
+  background: rgb(255, 201, 0);
+  background: linear-gradient(90deg, rgba(255, 201, 0, 1) 0%, rgba(247, 253, 4, 1) 100%);
+  height: 120px;
+}
+
+.logo img {
+  float: left;
+  margin-left: 2.6rem;
+  /* border: 1px solid red; */
+  max-width: 170px;
+  display: block;
+}
+
+header .logo {
+  /* position: relative; */
+  float: left;
+  margin-top: 23px;
+  /* display: block; */
+  /* margin-left: 1.2rem; */
+  /* border: 1px solid blue; */
+  /* max-width: 150px; */
+  display: block;
+}
+
+header ul {
+  float: right;
+  /* border: 1px solid red; */
+  padding: 10px;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  margin: 0 8px 0 8px;
+}
+
+header ul li a {
+  display: block;
+  padding: 4px;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+header .menu-toggle {
+  display: none;
+}
+
+.nav {
+  margin-top: 15px;
+}
+
+.page-wrapper {
+  padding: 60px 0 60px 0;
+}
+
+.post-slider {
+  position: relative;
+}
+
+.post-wrapper {
+  overflow: hidden;
+  /* WARNING: /* da ne preliva postove van div-a */
+  height: 360px;
+  width: 84%;
+  margin: 0px auto;
+}
+
+/* NAV MENU STYLE  */
+a.first-nav-link {
+  color: #f7ede2;
+  font-size: 2.4rem;
+  font-weight: bold;
+  border: 1px solid #8F0055;
+  border-radius: 25px;
+  border-width: medium;
+  background-color: #EF008Eff;
+  transition-timing-function: ease-in;
+  transition: .2s;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 2px black;
+}
+
+a.first-nav-link:hover {
+  color: #f7ede2;
+  font-size: 2.7rem;
+  font-weight: bold;
+  border: 1px solid #8F0055;
+  border-radius: 25px;
+  border-width: thick;
+  transition-timing-function: ease-out;
+  transition: .5s;
+  background-color: #EF008Eff;
+  text-shadow: 2px 2px 2px black;
+}
+
+a.second-nav-link {
+  color: #f7ede2;
+  font-size: 2.4rem;
+  font-weight: bold;
+  border: 1px solid #8C3210;
+  border-radius: 25px;
+  border-width: medium;
+  background-color: #DB4F1Bff;
+  transition-timing-function: ease-in;
+  transition: .2s;
+  text-shadow: 2px 2px 2px black;
+}
+
+a.second-nav-link:hover {
+  color: #f7ede2;
+  font-size: 2.7rem;
+  font-weight: bold;
+  border: 1px solid #8C3210;
+  border-radius: 25px;
+  border-width: thick;
+  background-color: #DB4F1Bff;
+  transition-timing-function: ease-out;
+  transition: .5s;
+  text-shadow: 2px 2px 2px black;
+}
+
+a.third-nav-link {
+  color: #f7ede2;
+  font-size: 2.4rem;
+  font-weight: bold;
+  border: 1px solid #003959;
+  border-radius: 25px;
+  border-width: medium;
+  background-color: #0067A0ff;
+  transition-timing-function: ease-in;
+  transition: .2s;
+  text-shadow: 2px 2px 2px black;
+}
+
+a.third-nav-link:hover {
+  color: #f7ede2;
+  border: 1px solid #003959;
+  font-size: 2.7rem;
+  font-weight: bold;
+  border-radius: 25px;
+  border-width: thick;
+  background-color: #0067A0ff;
+  transition-timing-function: ease-out;
+  transition: .5s;
+  text-shadow: 2px 2px 2px black;
+}
+
+a.forth-nav-link {
+  color: #f7ede2;
+  font-size: 2.4rem;
+  font-weight: bold;
+  border: 1px solid #A40F17;
+  border-radius: 25px;
+  border-width: medium;
+  background-color: #EB1621ff;
+  transition-timing-function: ease-in;
+  transition: .2s;
+  text-shadow: 2px 2px 2px black;
+}
+
+a.forth-nav-link:hover {
+  color: #f7ede2;
+  font-size: 2.7rem;
+  font-weight: bold;
+  border: 1px solid #A40F17;
+  border-radius: 25px;
+  border-width: thick;
+  transition-timing-function: ease-out;
+  transition: .5s;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* NAV MENU STYLE  */
+/*********** ABOUT US CONTENT *************/
+.about-us {
+  display: flex;
+  /* background-color: #32CD32; */
+  background: rgb(50, 205, 48);
+  background: linear-gradient(90deg, rgba(50, 205, 48, 1) 0%, rgba(6, 82, 6, 1) 100%);
+}
+
+.about-us-content {
+  width: 80%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shega-ambient-picture {
+  max-width: 500px;
+  /* min-width: 300px; */
+  border-radius: 30%;
+  border: 3px solid #097829;
+  box-shadow: 2px 2px 2.5px black;
+  margin: auto;
+}
+
+.about-us-info {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 2.1rem;
+  /* color: #097829; */
+  /* color: #F7FD04; */
+  /* color: #F7FD1D; */
+  color: #f7ede2;
+  color: #0067A0ff;
+  color: #097829;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px #097829;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px 0 10px;
+  text-align: center;
+  /* overflow: hidden; */
+  border-radius: 5%;
+  box-shadow: 2px 2px 2.5px black;
+  background-color: #DB4F1Bff;
+  background-color: #EB1621ff;
+  background-color: #F7FD04;
+  max-width: 650px;
+  height: 350px;
+  border: 5px solid #F7FD04;
+  border: 3px solid #097829;
+  box-shadow: 2px 2px 2.5px black;
+  /* margin: 0px 20px 20px 10px; */
+}
+
+.about-us-info p {
+  margin: 10px;
+}
+
+.big-screen-title {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  font-size: 3.1rem;
+  letter-spacing: 1px;
+  color: #F7FD04;
+  /* color: #f7ede2; */
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.small-screen-title {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  font-size: 3.7rem;
+  letter-spacing: 5px;
+  color: #F7FD04;
+  /* color: #f7ede2; */
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -30px;
+  display: none;
+}
+
+/* *********************FOOTER START************************** */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  background-color: #A40F17;
+  background: rgb(164, 15, 23);
+  background: linear-gradient(90deg, rgba(164, 15, 23, 1) 0%, rgba(235, 22, 33, 1) 100%);
+  /* background-color: #EB1621ff; */
+  /* max-height: 110px; */
+  height: 180px;
+  /* height: 240px; */
+  /* padding-bottom: 300px; */
+  /* overflow: hidden; */
+}
+
+.shega-logo-footer img {
+  max-height: 100px;
+}
+
+/* .topnav {
+
+} */
+.social-link-div {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  position: relative;
+  /* margin-top: 10px; */
+  /* border: 1px solid white; */
+  width: 239px;
+  height: 120px;
+}
+
+/* .social-icons-links {
+
+  color: #F7FD04;
+    color: white;
+  color: #097829;
+  display: inline-block;
+  font-size: 48px;
+  margin: 60px 18px 50px 20px;
+  text-shadow: 2px 2px 2.5px black;
+} */
+.social-icons-links {
+  text-align: center;
+  color: #F7FD04;
+  color: white;
+  /* color: #097829; */
+  color: #720a10;
+  color: #4f070b;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  text-decoration: none;
+  /* margin: 60px 18px 50px 20px; */
+  text-shadow: 2px 2px 2.5px black;
+  /* border: 1px solid white; */
+  width: 70px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.social-icons-links i {
+  text-align: center;
+  /* display: flex;
+justify-content: center;
+  font-size: 38px;
+  text-decoration: none; */
+  margin: auto;
+}
+
+.social-icons-links:hover {
+  color: #F7FD04;
+  color: white;
+  color: #c0c0c0;
+  /* display: inline-block; */
+}
+
+.footer-phone-contact {
+  margin-top: 80px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  display: inline-block;
+  /* border: 1px solid white; */
+  color: white;
+  color: #c0c0c0;
+  position: absolute;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2.5px black;
+}
+
+.footer-mail-contact {
+  margin-top: 110px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  display: inline-block;
+  /* border: 1px solid white; */
+  color: white;
+  color: #d8d8d8;
+  color: #c0c0c0;
+  /* color: red; */
+  position: absolute;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2.5px black;
+}
+
+.footer-phone-contact::before {
+  content: "\f095";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.footer-mail-contact::before {
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.shega-logo-footer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+
+.shega-logo-footer-small-screen {
+  display: none;
+}
+
+.copyright {
+  text-align: center;
+  justify-content: center;
+  /* display: flex;
+  flex-direction: column; */
+  margin-top: 100px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  /* display: flex; */
+  /* border: 1px solid white; */
+  color: white;
+  color: #d8d8d8;
+  color: #c0c0c0;
+  /* color: red; */
+  position: absolute;
+  /* letter-spacing: 2px; */
+  text-shadow: 2px 2px 2.5px black;
+}
+
+.copyright a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  color: #c0c0c0;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 70px;
+  margin-right: 50px;
+  height: 40px;
+  width: 200px;
+  border: 5px solid #720a10;
+  border-radius: 5px;
+}
+
+.search-bar input {
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #720a10;
+  border: none;
+  /* WARNING:   OVA CETIRI REDA NA DOLE ELIMINISU ODVRATNI BORDER KAD JE SEARCH BAR AKTIVAN. ON SE POJAVLJUJE KADA KORISNIH KRENE NESTO DA UKUCAVA */
+  background-color: #c0c0c0;
+  resize: none;
+  outline: none;
+}
+
+/* *********************FOOTER END************************** */
+.about-us-icons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  /* width: 50%; */
+}
+
+.about-us-icons img {
+  width: 16%;
+}
+
+/* .about-us-icons img {
+  max-width: 50%;
+} `*/
+/*********** //ABOUT US CONTENT START *************/
+/*********** //ABOUT US CONTENT END*************/
+/* ***********CARD EQUAL HIGHT START****************** */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  flex: 1 0 300px;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  flex: 1 0 300px;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  max-width: 400px;
+}
+
+.card-image {
+  flex: 0 0 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 20px;
+}
+
+.card-image-about-us {
+  flex: 0 0 530px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 30px;
+}
+
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100%;
+}
+
+.card .card-title-game {
+  font-size: 1.9rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
+}
+
+.card .card-snippet-game {
+  font-family: 'Jaldi', sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  /* font-weight: bold; */
+  text-shadow: 2px 2px 4px black;
+  line-height: 1.1;
+}
+
+.card .card-readmore {
+  margin-top: auto;
+  text-transform: uppercase;
+}
+
+
+
+/* ***********************CONTACT START************************* */
+
+.page-wrapper-contact-us {
+  padding-top: 45px;
+  padding-bottom: 35px;
+}
+
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  text-align: center;
+  padding: 0 0 20px 0;
+  width: 90%;
+  max-width: 750px;
+  height: 700px;
+  margin: 0 auto 20px auto;
+  border-radius: 10%;
+  background-color: #0067A0ff;
+  border: 5px solid white;
+  border: 5px solid #003959;
+  align-items: center;
+  color: white;
+  text-align: center;
+box-shadow: 2px 2px 2.5px black;
+}
+
+.contact-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px auto 0px auto;
+  /* width: 500px; */
+width: 90%;
+max-width: 700px;
+  height: 700px;
+  color: white;
+  background-color: transparent;
+
+  border-radius: 10%;
+  background-color: #0067A0ff;
+  /* border: 5px solid white; */
+
+justify-content: space-between;
+
+}
+
+
+.contact-title {
+    /* font-family: 'Amatic SC', cursive; */
+
+    font-weight: 900;
+    font-size: 3.4rem;
+    letter-spacing: 5px;
+    color: #0067A0ff;
+
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    /* padding-top: 420px; */
+
+    /* margin-top: -700px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+  }
+
+
+/* .contact-title h1 {
+  margin: 0;
+} */
+
+form input, form textarea {
+
+  font-family: 'Amatic SC', cursive;
+  border: 0px;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: transparent;
+  font-size: 2.4rem;
+    color: white;
+    border-bottom: 3px solid white;
+  text-align: center;
+}
+.placeholder {
+  color: white;
+}
+form textarea  {
+  color: white;
+
+}
+textarea::placeholder {
+    color: white;
+}
+
+input::placeholder {
+      color: white;
+}
+
+
+.contact-form-btn {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.4rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+/* color:white;
+  color: #0067A0ff; */
+  color: #003959;
+width: 200px;
+height: 50px;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 15px;
+text-align: center;
+align-items: center;
+/* padding: 20px 0 20px 0; */
+border: 5px solid #003959;
+cursor: pointer;
+}
+
+/* ***********CARD EQUAL HIGHT END****************** */
+/* WARNING: MEDIA QUERIES */
+
+@media only screen and (max-width: 1090px) {
+  .mySwiper2 {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* .swiper-slide {
+              background-size: cover;
+              background-position: center;
+            } */
+  /* .gallery-thumbs {
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: none;
+  } */
+
+  .mySwiper .swiper-slide {
+    width: 100%;
+    height: 10px;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 580px;
+    height: 80%;
+    object-fit: cover;
+    border: 5px solid #DB4F1Bff;
+    border-radius: 10%;
+    box-shadow: 1px 1px 2px #8C3210;
+
+  }
+
+  .swiper {
+    /* width: 45%; */
+    width: 100%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us-page-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+  }
+
+  .about-shega {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding-top: 30px; */
+    margin: auto;
+    margin-top: 30px;
+    /* min-height: 350px; */
+    /* WARNING: kad sam izbrisao height ili min i max height div se prilagodjavao kolicini teksta */
+    height: 90%;
+    width: 70%;
+    text-align: center;
+    background-color: #DB4F1Bff;
+    border: 3px solid #8C3210 !important;
+    border-radius: 5%;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+  }
+
+  .about-shega h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .container-flex {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.about-us-page-flex {
+  height: 55%;
+
+  margin-top: 0;
+}
+
+
+  .swiper {
+    width: 100%;
+    height: 470px;
+
+      }
+
+
+
+
+  .about-us-title {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    font-size: 3.7rem;
+    letter-spacing: 5px;
+    color: #0067A0ff;
+    /* color: #f7ede2; */
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -30px;
+  }
+
+
+@media only screen and (max-width: 1042px) {
+  .about-us {
+    flex-direction: column;
+  }
+
+  .small-screen-title {
+    display: block;
+    margin-top: 20px;
+    font-size: 3.1rem;
+  }
+
+  .big-screen-title {
+    display: none;
+  }
+
+  .shega-ambient-picture {
+    margin: 0px auto 30px auto;
+    max-width: 60%;
+  }
+
+  .about-us-content {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-us-info {
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 970px) {
+
+    .footer {
+
+      min-height: 200px;
+    }
+
+    .shega-ambient-picture {
+      max-width: 80%;
+      /* min-width: 300px; */
+      border-radius: 30%;
+      border: 3px solid #097829;
+      box-shadow: 2px 2px 2.5px black;
+      margin: auto;
+      margin-bottom:  20px;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+      header ul li {
+        text-align: center;
+        float: left;
+        margin: 10px 0px 10px 0px;
+      }
+
+      header {
+        position: relative;
+      }
+
+      header ul {
+        width: 100%;
+        /* background: #F7FD04; */
+        background: rgb(255, 201, 0);
+        background: linear-gradient(90deg, rgba(255, 201, 0, 1) 0%, rgba(247, 253, 4, 1) 100%);
+        max-height: 0px;
+        overflow: hidden;
+      }
+
+      header ul li {
+        width: 100%;
+      }
+
+      header .menu-toggle {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 46px;
+        font-size: 2.3rem;
+        color: #0067A0ff;
+      }
+
+      .showing {
+        /* position: relative; */
+        max-height: 100rem;
+        /* z-index: 8888; */
+      }
+
+      .post-slider-down {
+        margin-top: 350px;
+      }
+
+      /* .gallery-thumbs {
+        display: none;
+      } */
+
+
+
+      .about-shega {
+
+        max-height: 405px;
+        width: 90%;
+        /* max-height: 90%; */
+        margin-bottom: 10px;
+      }
+
+
+
+        /* .shega-logo-footer-small-screen {
+          position: absolute;
+          margin-top: 180px;
+          display: flex;
+          flex-wrap: wrap;
+
+          justify-content: center;
+        } */
+
+        .shega-logo-footer-small-screen {
+          display: none;
+        }
+
+        @media only screen and (max-width: 690px) {
+
+          .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+          }
+
+          .swiper {
+            width: 100%;
+            height: 400px;
+
+              }
+
+
+          @media only screen and (max-width: 630px) {
+            .small-screen-title {
+              font-size: 2.3rem;
+            }
+
+            .swiper-slide img {
+              width: 90%;
+              height: 90%;
+            }
+
+            .swiper {
+              width: 100%;
+              height: 370px;
+
+                }
+
+            @media only screen and (max-width: 582px) {
+              .small-screen-title {
+                font-size: 1.9rem;
+              }
+
+              .about-us-info {
+                font-family: 'Amatic SC', cursive;
+                font-weight: bold;
+                font-size: 1.7rem;
+                max-height: 290px;
+              }
+
+              .swiper-slide img {
+                width: 80%;
+                height: 80%;
+              }
+
+              .swiper {
+                width: 100%;
+                height: 340px;
+
+                  }
+
+              @media only screen and (max-width: 545px) {
+                .small-screen-title {
+                  font-size: 1.7rem;
+                }
+
+                .about-shega h1 {
+                  font-size: 1.5rem;
+                }
+
+                .shega-logo-footer-small-screen {
+                  display: none;
+                }
+
+                @media only screen and (max-width: 540px) {
+                  .footer {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex-wrap: nowrap;
+                    min-height: 390px;
+                  }
+
+                  .social-link-div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin: 0px auto 10px auto;
+                  }
+
+                  .search-bar {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 50px auto 0 auto;
+                  }
+
+
+                  .about-shega h1 {
+                    font-size: 1.5rem;
+                  }
+
+                  .about-us-title {
+                    font-size: 2.7rem;
+                  }
+
+
+
+                  @media only screen and (max-width: 510px) {
+                    .swiper-slide img {
+                      width: 70%;
+                      height: 70%;
+                    }
+
+                    .swiper {
+                      width: 100%;
+                      height: 300px;
+
+                        }
+
+                  @media only screen and (max-width: 480px) {
+                    .about-us-info {
+                      font-family: 'Amatic SC', cursive;
+                      font-weight: bold;
+                      font-size: 1.6rem;
+                    }
+
+                    .small-screen-title {
+                      font-size: 1.6rem;
+                      font-weight: bold;
+                    }
+
+                    .swiper-slide img {
+                      object-fit: contain;
+                    }
+
+                    .swiper {
+                      width: 100%;
+                      height: 300px;
+                        }
+
+                        .about-shega h1 {
+                          font-size: 1.4rem;
+                        }
+
+
+
+
+                    @media only screen and (max-width:440px) {
+                      .swiper-slide img {
+                        width: 60%;
+                        height: 60%;
+                      }
+
+                      .swiper {
+                        width: 100%;
+                        height: 260px;
+                          }
+
+                          .about-shega h1 {
+                            font-size: 1.3rem;
+                          }
+
+                    @media only screen and (max-width: 375px) {
+                      .slider-title {
+                        font-size: 2.7rem;
+                      }
+
+                      .about-shega h1 {
+                        font-size: 1.3rem;
+                      }
+
+                      .swiper-slide img {
+                        width: 50%;
+                        height: 50%;
+                      }
+
+                      .swiper {
+                        width: 100%;
+                        height: 220px;
+                          }
+
+
+                      @media only screen and (max-width: 360px) {
+
+                        .small-screen-title {
+                          font-size: 1.4rem;
+                        }
+
+                        .about-us-icons {
+                          text-align: center;
+                          margin: auto;
+                        }
+
+                        .about-us-info {
+                          max-height: 360px;
+                          font-size: 1.4rem;
+                        }
+
+                        .about-us-title {
+                          font-size: 2.3rem;
+                        }
+
+                        .about-shega h1 {
+                          font-size: 1.2rem;
+                        }
+
+
+
+                        @media only screen and (max-width: 315px) {
+                          .swiper-slide img {
+                            width: 45%;
+                            height: 45%;
+                          }
+
+                          .swiper {
+                            width: 100%;
+                            height: 180px;
+                              }
+
+                              .about-shega h1 {
+                                font-size: 1.1rem;
+                              }
+
+
+                        @media only screen and (max-width: 280px) {
+
+                          .small-screen-title {
+                            font-size: .9rem;
+                          }
+
+                          .swiper {
+                            width: 100%;
+                            height: 100%;
+                          }
+
+
+                          .about-us-title {
+                            font-size: 1.7rem;
+                          }
+
+                          /* ******************** */
