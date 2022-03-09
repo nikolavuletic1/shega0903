@@ -6,9 +6,6 @@
 }
 
 body {
-  /* padding: 0px;
-  margin: 0px;
-  /* box-sizing: border-box; */
   background: #0067A0ff;
   background: #F7FD04;
   background: rgb(255, 201, 0);
@@ -21,17 +18,9 @@ body {
   height: 100%;
 }
 
-/* .swiper-slide {
-  display: block;
-  width: 350px;
-  object-fit: contain;
-
- } */
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* background: #fff; */
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -216,17 +205,11 @@ body {
 }
 
 /* ***************SWIPER AND CARDS END*************************** */
-
-
-
 /************************ SWIPER DRUGI POCETAK******************** */
-
-
 .mySwiper2 {
   height: 100%;
   width: 90%;
 }
-
 
 .mySwiper .swiper-slide {
   width: 90%;
@@ -251,14 +234,11 @@ body {
 }
 
 .swiper {
-
   width: 90%;
   height: 440px;
   /* margin-left: auto;
   margin-right: auto; */
   margin-top: 10px;
-
-
 }
 
 .about-us-page-flex {
@@ -281,7 +261,7 @@ body {
   border-radius: 5%;
   color: white;
   text-shadow: 1px 1px 3px black;
-margin:auto;
+  margin: auto;
 }
 
 .about-shega h1 {
@@ -332,7 +312,6 @@ margin:auto;
   color: #DB4F1Bff;
   font-weight: bold;
 }
-
 
 .card-image-about-us {
   /* flex: 0 0 530px; */
@@ -862,7 +841,6 @@ justify-content: center;
   margin: 30px;
 }
 
-
 .card-content {
   display: flex;
   flex-direction: column;
@@ -893,10 +871,7 @@ justify-content: center;
   text-transform: uppercase;
 }
 
-
-
 /* ***********************CONTACT START************************* */
-
 .page-wrapper-contact-us {
   padding-top: 45px;
   padding-bottom: 35px;
@@ -905,7 +880,6 @@ justify-content: center;
 .contact-us-container {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   text-align: center;
   padding: 0 0 20px 0;
@@ -920,57 +894,46 @@ justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
-box-shadow: 2px 2px 2.5px black;
+  box-shadow: 2px 2px 2.5px black;
 }
 
 .contact-form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 5px auto 0px auto;
   /* width: 500px; */
-width: 90%;
-max-width: 700px;
+  width: 90%;
+  max-width: 700px;
   height: 700px;
   color: white;
   background-color: transparent;
-
   border-radius: 10%;
   background-color: #0067A0ff;
   /* border: 5px solid white; */
-
-justify-content: space-between;
-
+  justify-content: space-between;
 }
 
-
 .contact-title {
-    /* font-family: 'Amatic SC', cursive; */
-
-    font-weight: 900;
-    font-size: 3.4rem;
-    letter-spacing: 5px;
-    color: #0067A0ff;
-
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    /* padding-top: 420px; */
-
-    /* margin-top: -700px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    text-align: center;
-  }
-
+  /* font-family: 'Amatic SC', cursive; */
+  font-weight: 900;
+  font-size: 3.4rem;
+  letter-spacing: 5px;
+  color: #0067A0ff;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  /* padding-top: 420px; */
+  /* margin-top: -700px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
 
 /* .contact-title h1 {
   margin: 0;
 } */
-
 form input, form textarea {
-
   font-family: 'Amatic SC', cursive;
   border: 0px;
   margin: 10px 0;
@@ -978,51 +941,51 @@ form input, form textarea {
   outline: none;
   background: transparent;
   font-size: 2.4rem;
-    color: white;
-    border-bottom: 3px solid white;
+  color: white;
+  border-bottom: 3px solid white;
   text-align: center;
 }
+
 .placeholder {
   color: white;
 }
-form textarea  {
-  color: white;
 
+form textarea {
+  color: white;
 }
+
 textarea::placeholder {
-    color: white;
+  color: white;
 }
 
 input::placeholder {
-      color: white;
+  color: white;
 }
-
 
 .contact-form-btn {
   font-family: 'Amatic SC', cursive;
   font-size: 2.4rem;
   font-weight: 900;
   letter-spacing: 1px;
-/* color:white;
+  /* color:white;
   color: #0067A0ff; */
   color: #003959;
-width: 200px;
-height: 50px;
-margin: auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-border-radius: 15px;
-text-align: center;
-align-items: center;
-/* padding: 20px 0 20px 0; */
-border: 5px solid #003959;
-cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  /* padding: 20px 0 20px 0; */
+  border: 5px solid #003959;
+  cursor: pointer;
 }
 
 /* ***********CARD EQUAL HIGHT END****************** */
 /* WARNING: MEDIA QUERIES */
-
 @media only screen and (max-width: 1090px) {
   .mySwiper2 {
     height: 100%;
@@ -1039,7 +1002,6 @@ cursor: pointer;
     padding: 10px 0;
     display: none;
   } */
-
   .mySwiper .swiper-slide {
     width: 100%;
     height: 10px;
@@ -1057,7 +1019,6 @@ cursor: pointer;
     border: 5px solid #DB4F1Bff;
     border-radius: 10%;
     box-shadow: 1px 1px 2px #8C3210;
-
   }
 
   .swiper {
@@ -1105,27 +1066,19 @@ cursor: pointer;
   }
 
   .container-flex {
-
     display: flex;
     flex-direction: column;
-
   }
 
-.about-us-page-flex {
-  height: 55%;
-
-  margin-top: 0;
-}
-
+  .about-us-page-flex {
+    height: 55%;
+    margin-top: 0;
+  }
 
   .swiper {
     width: 100%;
     height: 470px;
-
-      }
-
-
-
+  }
 
   .about-us-title {
     font-family: 'Amatic SC', cursive;
@@ -1140,112 +1093,102 @@ cursor: pointer;
     margin-top: -30px;
   }
 
+  @media only screen and (max-width: 1042px) {
+    .about-us {
+      flex-direction: column;
+    }
 
-@media only screen and (max-width: 1042px) {
-  .about-us {
-    flex-direction: column;
-  }
+    .small-screen-title {
+      display: block;
+      margin-top: 20px;
+      font-size: 3.1rem;
+    }
 
-  .small-screen-title {
-    display: block;
-    margin-top: 20px;
-    font-size: 3.1rem;
-  }
-
-  .big-screen-title {
-    display: none;
-  }
-
-  .shega-ambient-picture {
-    margin: 0px auto 30px auto;
-    max-width: 60%;
-  }
-
-  .about-us-content {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .about-us-info {
-    margin: auto;
-  }
-
-  @media only screen and (max-width: 970px) {
-
-    .footer {
-
-      min-height: 200px;
+    .big-screen-title {
+      display: none;
     }
 
     .shega-ambient-picture {
-      max-width: 80%;
-      /* min-width: 300px; */
-      border-radius: 30%;
-      border: 3px solid #097829;
-      box-shadow: 2px 2px 2.5px black;
-      margin: auto;
-      margin-bottom:  20px;
+      margin: 0px auto 30px auto;
+      max-width: 60%;
     }
 
+    .about-us-content {
+      max-width: 100%;
+      width: 100%;
+    }
 
-    @media only screen and (max-width: 768px) {
-      header ul li {
-        text-align: center;
-        float: left;
-        margin: 10px 0px 10px 0px;
+    .about-us-info {
+      margin: auto;
+    }
+
+  @media only screen and (max-width: 970px) {
+      .footer {
+        min-height: 200px;
       }
 
-      header {
-        position: relative;
+      .shega-ambient-picture {
+        max-width: 80%;
+        /* min-width: 300px; */
+        border-radius: 30%;
+        border: 3px solid #097829;
+        box-shadow: 2px 2px 2.5px black;
+        margin: auto;
+        margin-bottom: 20px;
       }
 
-      header ul {
-        width: 100%;
-        /* background: #F7FD04; */
-        background: rgb(255, 201, 0);
-        background: linear-gradient(90deg, rgba(255, 201, 0, 1) 0%, rgba(247, 253, 4, 1) 100%);
-        max-height: 0px;
-        overflow: hidden;
-      }
+      @media only screen and (max-width: 768px) {
+        header ul li {
+          text-align: center;
+          float: left;
+          margin: 10px 0px 10px 0px;
+        }
 
-      header ul li {
-        width: 100%;
-      }
+        header {
+          position: relative;
+        }
 
-      header .menu-toggle {
-        display: block;
-        position: absolute;
-        right: 20px;
-        top: 46px;
-        font-size: 2.3rem;
-        color: #0067A0ff;
-      }
+        header ul {
+          width: 100%;
+          /* background: #F7FD04; */
+          background: rgb(255, 201, 0);
+          background: linear-gradient(90deg, rgba(255, 201, 0, 1) 0%, rgba(247, 253, 4, 1) 100%);
+          max-height: 0px;
+          overflow: hidden;
+        }
 
-      .showing {
-        /* position: relative; */
-        max-height: 100rem;
-        /* z-index: 8888; */
-      }
+        header ul li {
+          width: 100%;
+        }
 
-      .post-slider-down {
-        margin-top: 350px;
-      }
+        header .menu-toggle {
+          display: block;
+          position: absolute;
+          right: 20px;
+          top: 46px;
+          font-size: 2.3rem;
+          color: #0067A0ff;
+        }
 
-      /* .gallery-thumbs {
+        .showing {
+          /* position: relative; */
+          max-height: 100rem;
+          /* z-index: 8888; */
+        }
+
+        .post-slider-down {
+          margin-top: 350px;
+        }
+
+        /* .gallery-thumbs {
         display: none;
       } */
-
-
-
-      .about-shega {
-
-        max-height: 405px;
-        width: 90%;
-        /* max-height: 90%; */
-        margin-bottom: 10px;
-      }
-
-
+        .about-shega {
+          max-height: 405px;
+          width: 90%;
+          /* max-height: 90%; */
+          margin-bottom: 10px;
+        }
 
         /* .shega-logo-footer-small-screen {
           position: absolute;
@@ -1255,13 +1198,11 @@ cursor: pointer;
 
           justify-content: center;
         } */
-
         .shega-logo-footer-small-screen {
           display: none;
         }
 
         @media only screen and (max-width: 690px) {
-
           .swiper-slide img {
             width: 100%;
             height: 100%;
@@ -1271,9 +1212,7 @@ cursor: pointer;
           .swiper {
             width: 100%;
             height: 400px;
-
-              }
-
+          }
 
           @media only screen and (max-width: 630px) {
             .small-screen-title {
@@ -1288,8 +1227,7 @@ cursor: pointer;
             .swiper {
               width: 100%;
               height: 370px;
-
-                }
+            }
 
             @media only screen and (max-width: 582px) {
               .small-screen-title {
@@ -1311,8 +1249,7 @@ cursor: pointer;
               .swiper {
                 width: 100%;
                 height: 340px;
-
-                  }
+              }
 
               @media only screen and (max-width: 545px) {
                 .small-screen-title {
@@ -1349,7 +1286,6 @@ cursor: pointer;
                     margin: 50px auto 0 auto;
                   }
 
-
                   .about-shega h1 {
                     font-size: 1.5rem;
                   }
@@ -1357,8 +1293,6 @@ cursor: pointer;
                   .about-us-title {
                     font-size: 2.7rem;
                   }
-
-
 
                   @media only screen and (max-width: 510px) {
                     .swiper-slide img {
@@ -1369,128 +1303,160 @@ cursor: pointer;
                     .swiper {
                       width: 100%;
                       height: 300px;
+                    }
 
-                        }
+                    @media only screen and (max-width: 480px) {
+                      .about-us-info {
+                        font-family: 'Amatic SC', cursive;
+                        font-weight: bold;
+                        font-size: 1.6rem;
+                      }
 
-                  @media only screen and (max-width: 480px) {
-                    .about-us-info {
-                      font-family: 'Amatic SC', cursive;
-                      font-weight: bold;
+                      .small-screen-title {
                       font-size: 1.6rem;
-                    }
+                        font-weight: bold;
+                      }
 
-                    .small-screen-title {
-                      font-size: 1.6rem;
-                      font-weight: bold;
-                    }
-
-                    .swiper-slide img {
-                      object-fit: contain;
-                    }
-
-                    .swiper {
-                      width: 100%;
-                      height: 300px;
-                        }
-
-                        .about-shega h1 {
-                          font-size: 1.4rem;
-                        }
-
-
-
-
-                    @media only screen and (max-width:440px) {
                       .swiper-slide img {
-                        width: 60%;
-                        height: 60%;
+                        object-fit: contain;
                       }
 
                       .swiper {
                         width: 100%;
-                        height: 260px;
+                        height: 300px;
+                      }
+
+                      .about-shega h1 {
+                        font-size: 1.4rem;
+                      }
+
+
+                      .contact-title {
+                        font-weight: 900;
+                        font-size: 3.1rem;
+                        letter-spacing: 5px;
+                      }
+
+                      form input, form textarea {
+                        font-size: 2.1rem;
+                        color: white;
+                      }
+
+
+
+
+                      @media only screen and (max-width:440px) {
+                        .swiper-slide img {
+                          width: 60%;
+                          height: 60%;
+                        }
+
+                        .swiper {
+                          width: 100%;
+                          height: 260px;
+                        }
+
+                        .about-shega h1 {
+                          font-size: 1.3rem;
+                        }
+
+
+                        .contact-title {
+                          font-weight: 900;
+                          font-size: 2.8rem;
+                          letter-spacing: 5px;
+                        }
+
+                        form input, form textarea {
+                          font-size: 1.8rem;
+                          color: white;
+                        }
+
+
+
+
+
+                        @media only screen and (max-width: 375px) {
+                          .slider-title {
+                            font-size: 2.7rem;
                           }
 
                           .about-shega h1 {
                             font-size: 1.3rem;
                           }
 
-                    @media only screen and (max-width: 375px) {
-                      .slider-title {
-                        font-size: 2.7rem;
-                      }
-
-                      .about-shega h1 {
-                        font-size: 1.3rem;
-                      }
-
-                      .swiper-slide img {
-                        width: 50%;
-                        height: 50%;
-                      }
-
-                      .swiper {
-                        width: 100%;
-                        height: 220px;
-                          }
-
-
-                      @media only screen and (max-width: 360px) {
-
-                        .small-screen-title {
-                          font-size: 1.4rem;
-                        }
-
-                        .about-us-icons {
-                          text-align: center;
-                          margin: auto;
-                        }
-
-                        .about-us-info {
-                          max-height: 360px;
-                          font-size: 1.4rem;
-                        }
-
-                        .about-us-title {
-                          font-size: 2.3rem;
-                        }
-
-                        .about-shega h1 {
-                          font-size: 1.2rem;
-                        }
-
-
-
-                        @media only screen and (max-width: 315px) {
                           .swiper-slide img {
-                            width: 45%;
-                            height: 45%;
+                            width: 50%;
+                            height: 50%;
                           }
 
                           .swiper {
                             width: 100%;
-                            height: 180px;
+                            height: 220px;
+                          }
+
+                          @media only screen and (max-width: 360px) {
+                            .small-screen-title {
+                              font-size: 1.4rem;
+                            }
+
+                            .about-us-icons {
+                              text-align: center;
+                              margin: auto;
+                            }
+
+                            .about-us-info {
+                              max-height: 360px;
+                              font-size: 1.4rem;
+                            }
+
+                            .about-us-title {
+                              font-size: 2.3rem;
+                            }
+
+                            .about-shega h1 {
+                              font-size: 1.2rem;
+                            }
+
+                            @media only screen and (max-width: 315px) {
+                              .swiper-slide img {
+                                width: 45%;
+                                height: 45%;
+                              }
+
+                              .swiper {
+                                width: 100%;
+                                height: 180px;
                               }
 
                               .about-shega h1 {
                                 font-size: 1.1rem;
                               }
 
+                              @media only screen and (max-width: 280px) {
+                                .small-screen-title {
+                                  font-size: .9rem;
+                                }
 
-                        @media only screen and (max-width: 280px) {
+                                .swiper {
+                                  width: 100%;
+                                  height: 100%;
+                                }
 
-                          .small-screen-title {
-                            font-size: .9rem;
-                          }
-
-                          .swiper {
-                            width: 100%;
-                            height: 100%;
-                          }
+                                .about-us-title {
+                                  font-size: 1.7rem;
+                                }
 
 
-                          .about-us-title {
-                            font-size: 1.7rem;
-                          }
+                                .contact-title {
+                                  font-weight: 900;
+                                  font-size: 2.1rem;
+                                  letter-spacing: 2px;
+                                }
 
-                          /* ******************** */
+                                form input, form textarea {
+                                  font-size: 1.4rem;
+                                  color: white;
+                                }
+
+                                /* ******************** */
